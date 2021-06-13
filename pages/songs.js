@@ -17,10 +17,10 @@ export default function Songs({songs}){
                     {
                         songs.map(song => {return (
                             <li>
-                                <h2>{song.Title}</h2>
-                                <h2>{song.Movie}</h2>
-                                <h2>{song.Hero}</h2>
-                                <h2>{song.Heroine}</h2>
+                                <h2>Song title: {song.Title}</h2>
+                                <h2>Movie: {song.Movie}</h2>
+                                <h2>Hero: {song.Hero}</h2>
+                                <h2>Heroine: {song.Heroine}</h2>
                             </li>
                         )})
                     }
