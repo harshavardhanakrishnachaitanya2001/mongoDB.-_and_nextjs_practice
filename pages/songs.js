@@ -20,7 +20,7 @@ export default function Songs({songs}){
                                 <h2>Song title: {song.Title}</h2>
                                 <h2>Movie: {song.Movie}</h2>
                                 <h2>Hero: {song.Hero}</h2>
-                                <h2>Heroine: {song.Heroine}</h2>
+                                <h2>Heroine: {song.Heroine1}</h2>
                             </li>
                         )})
                     }
